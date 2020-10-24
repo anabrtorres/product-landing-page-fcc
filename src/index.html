@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html id="main">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Product Landing Page</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="../public/css/main.css" />
+    <link rel="stylesheet" href="../public/css/navbar.css" />
+    <link rel="stylesheet" href="../public/css/benefits.css" />
+    <link rel="stylesheet" href="../public/css/contact.css" />
+    <link rel="stylesheet" href="../public/css/form.css" />
+    <link rel="stylesheet" href="../public/css/button.css" />
+    <link rel="stylesheet" href="../public/css/mobile.css" />
+  </head>
+
+  <body class="container">
+    <header id="header">
+      <nav id="nav-bar">
+        <img
+          src="https://d5d.com.br/wp-content/uploads/2020/05/D5D-PREMIUM.png"
+          alt="company logo"
+          id="header-img"
+        />
+        <h3 id="company">D5D PREMIUM</h3>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#benefits" class="nav-link">Benefits</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <div id="full-page">
+      <div id="about">
+        <article>
+          <h2>About the Challenge</h2>
+          <img
+            src="https://d5d.com.br/wp-content/uploads/2020/07/img41.png"
+            alt=""
+            id="about-img"
+          />
+          <p>
+            D5D is a method based on 5 pillars: <b>food, exercises,
+            supplementation, coach and community</b>.
+            The first step is to sign up to receive your supplements.
+            Then I will contact you to make an assessment, learn more about your
+            goal, your diet, your routine...
+            That way, you will achieve your goals in those 5 days.</p>
+        </article>
+      </div>
+
+      <form
+        action="https://www.freecodecamp.com/email-submit"
+        method="POST"
+        id="form"
+      >
+        <hr />
+        <label for="email" id="email-label">Get More Info!</label><br />
+        <input
+          type="email"
+          id="email-input"
+          name="email"
+          class="form-input"
+          placeholder="Enter your email"
+        /><br />
+        <button type="submit" id="submit-button">Submit</button>
+      </form>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/4L9rlER9UNs"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        id="video"
+      ></iframe>
+
+      <div id="benefits">
+        <article class="content-benefits">
+          <h2>Benefits</h2>
+          <ul class="benefits-ul">
+            <li>Fully online monitoring</li>
+            <li>Hotline with nutritionists</li>
+            <li>Individualized nutritional routine</li>
+            <li>E-Book for healthy living</li>
+            <li>Physical activity tips</li>
+            <li>Recipe portal</li>
+            <li>Daily support group</li>
+            <li>5 HERBALIFE Supplements</li>
+          </ul>
+          <hr />
+          <div id="price-after">R$ 107,00</div>
+          <div id="price-before">
+            <span class="sup"><span class="small">R$</span></span
+            >57<span class="small">,00</span>
+          </div>
+          <button id="buy-button">Select</button>
+        </article>
+      </div>
+
+      <article id="contact">
+        <h2>Contact</h2>
+        <div id="img-text-contact">
+          <img
+            src="https://d5d.com.br/wp-content/uploads/2020/03/20190606_212355-1024x1024.jpg"
+            alt="Márcio Torres"
+            id="contact-img"
+          />
+          <div id="contact-text">
+            <p><b>You have to know the answers!</b></p>
+            <p>
+              My name is Márcio Torres, I have over 20 years of experience and
+              if you have tried everything and failed, I will tell you how to
+              achieve your goals!
+            </p>
+            <p>
+              I am prepared to answer all your questions and keep you steady in
+              pursuit of your goals.
+            </p>
+            <p>There are hundreds of satisfied customers!</p>
+            <button src="http://mywhats.net/conversard5d" id="contact-button">
+              Contact
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <footer id="footer">
+        <p id="ptc">
+          <a href="#home" class="footer-link">Privacy</a
+          ><a href="#home" class="footer-link">Terms</a
+          ><a href="#home" class="footer-link">Contact</a>
+        </p>
+        <p>&copy; 2020 | Ana Torres</p>
+      </footer>
+    </div>
+  </body>
+</html>
